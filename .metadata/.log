@@ -1,0 +1,868 @@
+!SESSION 2019-09-06 14:48:31.962 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.testing.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.testing.product
+
+!ENTRY org.eclipse.mylyn.monitor.ui 4 0 2019-09-06 14:49:26.562
+!MESSAGE Extensions for org.eclipse.mylyn.monitor.ui/osActivityTimer failed to load
+!SUBENTRY 1 org.eclipse.mylyn.monitor.ui 4 0 2019-09-06 14:49:26.562
+!MESSAGE Class 'org.eclipse.jubula.client.alm.mylyn.ui.bridge.monitor.UserInteractionMonitor' does not extend expected class for extension contributed by org.eclipse.mylyn.monitor.ui
+!SESSION 2019-09-06 14:52:33.890 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.testing.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.testing.product
+
+!ENTRY org.eclipse.mylyn.monitor.ui 4 0 2019-09-06 14:52:42.279
+!MESSAGE Extensions for org.eclipse.mylyn.monitor.ui/osActivityTimer failed to load
+!SUBENTRY 1 org.eclipse.mylyn.monitor.ui 4 0 2019-09-06 14:52:42.279
+!MESSAGE Class 'org.eclipse.jubula.client.alm.mylyn.ui.bridge.monitor.UserInteractionMonitor' does not extend expected class for extension contributed by org.eclipse.mylyn.monitor.ui
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2019-09-06 16:38:35.219
+!MESSAGE Error disposing widget for : org.eclipse.e4.ui.model.application.ui.menu.impl.MenuImpl null
+!STACK 0
+org.eclipse.swt.SWTException: Graphic is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.SWT.error(SWT.java:4327)
+	at org.eclipse.swt.graphics.Font.getFontData(Font.java:184)
+	at org.eclipse.swt.custom.CTabFolderRenderer.drawChevron(CTabFolderRenderer.java:910)
+	at org.eclipse.swt.custom.CTabFolderRenderer.draw(CTabFolderRenderer.java:606)
+	at org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering.draw(CTabRendering.java:244)
+	at org.eclipse.swt.custom.CTabFolder.createButtonImage(CTabFolder.java:668)
+	at org.eclipse.swt.custom.CTabFolder.setButtonBounds(CTabFolder.java:2485)
+	at org.eclipse.swt.custom.CTabFolder.updateItems(CTabFolder.java:3705)
+	at org.eclipse.swt.custom.CTabFolder.updateItems(CTabFolder.java:3640)
+	at org.eclipse.swt.custom.CTabFolder.onResize(CTabFolder.java:2034)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:290)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Control.sendResize(Control.java:2950)
+	at org.eclipse.swt.widgets.Composite.sendResize(Composite.java:977)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1026)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3104)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3100)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3167)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.setRectangle(SashLayout.java:318)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:263)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:306)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:306)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:306)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.layout(SashLayout.java:180)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1290)
+	at org.eclipse.swt.widgets.Composite.sendResize(Composite.java:981)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1026)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3104)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3100)
+	at org.eclipse.swt.layout.FillLayout.layout(FillLayout.java:204)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1290)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1701)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4685)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:79)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5492)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4698)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Widget.SetWindowPos(Widget.java:1465)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3143)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1020)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3104)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3100)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3167)
+	at org.eclipse.swt.custom.StackLayout.layout(StackLayout.java:123)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1290)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1701)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4685)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:79)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5492)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4698)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Widget.SetWindowPos(Widget.java:1465)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3143)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1020)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3104)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3100)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3167)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.setRectangle(SashLayout.java:318)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:263)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:306)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.layout(SashLayout.java:180)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1290)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1701)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4685)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:79)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5492)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4698)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Widget.SetWindowPos(Widget.java:1465)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3143)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1020)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3104)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3100)
+	at org.eclipse.swt.layout.FillLayout.layout(FillLayout.java:204)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1290)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1701)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4685)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:79)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5492)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4698)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.EndDeferWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:950)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:916)
+	at org.eclipse.swt.widgets.Composite.setResizeChildren(Composite.java:1127)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1705)
+	at org.eclipse.swt.widgets.Canvas.WM_SIZE(Canvas.java:462)
+	at org.eclipse.swt.widgets.Decorations.WM_SIZE(Decorations.java:1810)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4685)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1626)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5492)
+	at org.eclipse.swt.widgets.Canvas.WM_WINDOWPOSCHANGED(Canvas.java:468)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4698)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1626)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.SetMenu(Native Method)
+	at org.eclipse.swt.widgets.Decorations.setMenuBar(Decorations.java:1174)
+	at org.eclipse.swt.widgets.Menu.releaseParent(Menu.java:1186)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:824)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:454)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.disposeWidget(SWTPartRenderer.java:175)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:933)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$3(PartRenderingEngine.java:862)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$8.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.ui.internal.WorkbenchWindow$1.handleEvent(WorkbenchWindow.java:319)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4734)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:218)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:81)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setWidget(UIElementImpl.java:261)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.unbindWidget(SWTPartRenderer.java:150)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer$1.widgetDisposed(SWTPartRenderer.java:138)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:816)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:454)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:715)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3811)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3292)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4705)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1626)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3141)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3756)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+	at org.eclipse.jface.window.Window.open(Window.java:808)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:341)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:171)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4346)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3305)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4705)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1626)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3141)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3756)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SESSION 2019-09-06 16:45:49.042 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.testing.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.testing.product
+
+!ENTRY org.eclipse.mylyn.monitor.ui 4 0 2019-09-06 16:46:05.271
+!MESSAGE Extensions for org.eclipse.mylyn.monitor.ui/osActivityTimer failed to load
+!SUBENTRY 1 org.eclipse.mylyn.monitor.ui 4 0 2019-09-06 16:46:05.271
+!MESSAGE Class 'org.eclipse.jubula.client.alm.mylyn.ui.bridge.monitor.UserInteractionMonitor' does not extend expected class for extension contributed by org.eclipse.mylyn.monitor.ui
+
+!ENTRY org.eclipse.ui 4 0 2019-09-06 16:51:09.553
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ClassCastException: org.eclipse.e4.ui.model.application.ui.advanced.impl.PlaceholderImpl cannot be cast to org.eclipse.e4.ui.model.application.ui.MElementContainer
+	at org.eclipse.e4.ui.workbench.addons.minmax.TrimStack.showStack(TrimStack.java:1035)
+	at org.eclipse.e4.ui.workbench.addons.minmax.TrimStack$9.widgetSelected(TrimStack.java:509)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SESSION 2019-09-06 16:55:25.222 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.8.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:05.920
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar|org/openqa/selenium/ie/InternetExplorerOptions.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.024
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar|org/openqa/selenium/chrome/ChromeOptions.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.351
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/io/TemporaryFilesystem.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.353
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/json/BooleanCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.354
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/json/CollectionCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.355
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/json/CommandCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.356
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/json/EnumCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.358
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/json/InstanceCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.361
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/json/JsonInput.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.364
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/json/JsonOutput.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.365
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/json/JsonTypeCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.368
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/json/MapCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.370
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/json/NumberCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.372
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/json/ObjectCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.373
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/json/ResponseCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.375
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/json/SessionIdCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.377
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/json/SimplePropertyDescriptor.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.379
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/json/StaticInitializerCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.381
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/json/StringCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.383
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/json/UriCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.385
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/json/UrlCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.387
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/json/UuidCoercer.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.390
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/net/UrlChecker.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.393
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/AcceptedW3CCapabilityKeys.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.395
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/AddRotatable.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.399
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/DesiredCapabilities.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.403
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/ErrorCodes.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.416
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/ErrorHandler.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.418
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/HandshakeResponse.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.422
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/JsonWireProtocolResponse.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.425
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/NewSessionPayload.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.427
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/ProtocolHandshake$Result.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.429
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/ProtocolHandshake.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.432
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/RemoteWebDriver$RemoteWebDriverOptions.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.435
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/RemoteWebDriverBuilder$Plan.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.437
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/RemoteWebDriverBuilder.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.439
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/RemoteWebElement.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.441
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/W3CHandshakeResponse.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.443
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/html5/AddApplicationCache.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.445
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/html5/AddLocationContext.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.447
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/html5/AddWebStorage.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.450
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/http/HttpMessage.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.454
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/http/W3CHttpCommandCodec.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.456
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/internal/HttpUrlBuilder.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.457
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/internal/OkHttpClient$Factory$1.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.458
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/internal/OkHttpClient.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.460
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/mobile/AddNetworkConnection.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.462
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/session/ChromeFilter.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.463
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/session/EdgeFilter.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.464
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/session/FirefoxFilter.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.465
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/session/InternetExplorerFilter.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.466
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/session/OperaFilter.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:06.467
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar|org/openqa/selenium/remote/session/SafariFilter.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.345
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar|org/openqa/selenium/safari/SafariDriverInfo.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.347
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar|org/openqa/selenium/safari/SafariOptions.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.349
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar|org/openqa/selenium/safari/SafariTechPreviewDriverInfo.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.481
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/cache/LocalCache$EntrySet.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.486
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/cache/LocalCache$Values.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.489
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/cache/LocalCache.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.493
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/AbstractMapBasedMultimap$AsMap$AsMapEntries.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.497
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/AbstractMapBasedMultimap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.498
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/AbstractMapBasedMultiset.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.502
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/AbstractTable.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.505
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/ArrayTable$ArrayMap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.507
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/ArrayTable.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.508
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/CollectCollectors.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.510
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/CollectSpliterators$1.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.511
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/CollectSpliterators$1FlatMapSpliterator.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.512
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/CollectSpliterators$1WithCharacteristics.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.513
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Collections2$FilteredCollection.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.515
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Collections2$TransformedCollection.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.517
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/CompactHashMap$EntrySetView.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.521
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Comparators.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.546
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/HashBiMap$Inverse.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.550
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/ImmutableEnumMap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.553
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/ImmutableList.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.555
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/ImmutableListMultimap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.557
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/ImmutableMap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.559
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/ImmutableMapKeySet.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.560
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/ImmutableMapValues.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.563
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/ImmutableMultimap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.564
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/ImmutableMultiset$Builder.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.566
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/ImmutableMultiset.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.570
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/ImmutableSet$Indexed.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.573
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/ImmutableSetMultimap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.574
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/ImmutableSortedAsList.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.576
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/ImmutableSortedMap$1EntrySet$1.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.578
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/ImmutableSortedMap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.579
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/ImmutableSortedMultiset.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.583
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/ImmutableTable.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.584
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/IndexedImmutableSet.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.586
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Iterables$1.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.587
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Iterables$4.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.588
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Iterables$5.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.593
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/JdkBackedImmutableMap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.596
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/LinkedHashMultimap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.601
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Lists$TransformingRandomAccessList.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.602
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Lists$TransformingSequentialList.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.613
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Maps$Accumulator.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.614
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Maps$AsMapView.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.616
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Maps$FilteredEntryBiMap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.620
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Maps$KeySet.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.642
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Maps$NavigableAsMapView.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.644
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Maps$TransformedEntriesMap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.678
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Maps$Values.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.684
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Maps.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.718
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/MoreCollectors.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.720
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Multimap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.727
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Multimaps$Keys.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.733
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Multimaps.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.735
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Multiset.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.744
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Multisets.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.745
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/MutableClassToInstanceMap$2.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.780
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/RegularImmutableBiMap$Inverse.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.786
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Sets$1.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.787
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Sets$2.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.788
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Sets$3.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.791
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Sets$Accumulator.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.801
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/StandardTable$Row.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.804
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/StandardTable.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.812
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Streams.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.855
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/collect/Tables.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:07.965
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/hash/BloomFilter.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:08.107
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/io/CharSource.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:08.316
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/primitives/ImmutableDoubleArray$Builder.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:08.318
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/primitives/ImmutableIntArray$Builder.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:08.320
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/primitives/ImmutableLongArray$Builder.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:08.347
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar|com/google/common/util/concurrent/AtomicLongMap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:09.956
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar|org/openqa/selenium/support/events/EventFiringWebDriver$EventFiringWebElement.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:09.958
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar|org/openqa/selenium/support/events/EventFiringWebDriver.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:09.966
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar|org/openqa/selenium/support/ui/ExpectedConditions$38.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:09.967
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar|org/openqa/selenium/support/ui/ExpectedConditions$39.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:09.969
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar|org/openqa/selenium/support/ui/ExpectedConditions$45.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:09.971
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar|org/openqa/selenium/support/ui/ExpectedConditions.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:09.972
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar|org/openqa/selenium/support/ui/FluentWait.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:09.973
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar|org/openqa/selenium/support/ui/Select.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:09.974
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar|org/openqa/selenium/support/ui/Sleeper.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:11.360
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar|org/openqa/selenium/firefox/Executable.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:11.362
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar|org/openqa/selenium/firefox/FirefoxBinary$Channel.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:11.364
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar|org/openqa/selenium/firefox/FirefoxBinary.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:11.367
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar|org/openqa/selenium/firefox/FirefoxDriver.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:11.370
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar|org/openqa/selenium/firefox/FirefoxOptions.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:11.373
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar|org/openqa/selenium/firefox/GeckoDriverInfo.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:11.375
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar|org/openqa/selenium/firefox/XpiDriverService.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:11.526
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar|com/aventstack/extentreports/configuration/ConfigMap.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:11.527
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar|com/aventstack/extentreports/ExceptionTestContextImpl.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:11.528
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar|com/aventstack/extentreports/ExtentReports.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:11.530
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar|com/aventstack/extentreports/ExtentTest.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:11.532
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar|com/aventstack/extentreports/GherkinKeyword.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:11.535
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar|com/aventstack/extentreports/model/Test.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:11.537
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar|com/aventstack/extentreports/model/TestAttributeTestContext.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:11.538
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar|com/aventstack/extentreports/Report.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:11.540
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar|com/aventstack/extentreports/reporter/AbstractReporter.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:11.541
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar|com/aventstack/extentreports/reporter/configuration/BasicConfiguration.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:11.544
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar|com/aventstack/extentreports/reporter/ExtentHtmlReporter.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:11.546
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar|com/aventstack/extentreports/reporter/ExtentXReporter.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:11.547
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar|com/aventstack/extentreports/reporter/KlovReporter.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:11.549
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar|com/aventstack/extentreports/SessionStatusStats.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:11.550
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar|com/aventstack/extentreports/TestAttributeTestContextProvider.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:12.076
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar|org/openqa/selenium/AbstractCapabilities.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:12.082
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar|org/openqa/selenium/ImmutableCapabilities.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:12.086
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar|org/openqa/selenium/MutableCapabilities.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:12.095
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar|org/openqa/selenium/interactions/Actions.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:12.098
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar|org/openqa/selenium/interactions/MoveToOffsetAction.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:12.100
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar|org/openqa/selenium/interactions/SendKeysAction.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:12.101
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar|org/openqa/selenium/interactions/internal/KeysRelatedAction.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:12.102
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar|org/openqa/selenium/interactions/internal/MouseAction.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:12.119
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar|org/openqa/selenium/logging/LogCombiner.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:12.120
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar|org/openqa/selenium/logging/LogEntries.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-09-06 16:56:12.121
+!MESSAGE The Java indexing could not index C:/Users/ns028/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar|org/openqa/selenium/logging/LogEntry.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+!SESSION 2019-09-06 16:58:05.010 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.testing.product -product org.eclipse.epp.package.testing.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.testing.product -data C:\Users\ns028\Desktop\Vignesh\Kreato\Automation Workspace -product org.eclipse.epp.package.testing.product
+
+!ENTRY org.eclipse.mylyn.monitor.ui 4 0 2019-09-06 16:58:30.918
+!MESSAGE Extensions for org.eclipse.mylyn.monitor.ui/osActivityTimer failed to load
+!SUBENTRY 1 org.eclipse.mylyn.monitor.ui 4 0 2019-09-06 16:58:30.918
+!MESSAGE Class 'org.eclipse.jubula.client.alm.mylyn.ui.bridge.monitor.UserInteractionMonitor' does not extend expected class for extension contributed by org.eclipse.mylyn.monitor.ui
+
+!ENTRY org.testng.eclipse 1 0 2019-09-06 17:00:14.853
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ns028\Desktop\Vignesh\Eclipse New\eclipse\configuration\org.eclipse.osgi\388\0\.cp\lib\testng-remote.jar C:\Users\ns028\Desktop\Vignesh\Kreato\Automation Workspace\Kreato_CRM_V1\target\test-classes C:\Users\ns028\Desktop\Vignesh\Kreato\Automation Workspace\Kreato_CRM_V1\target\classes C:\Users\ns028\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar C:\Users\ns028\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar C:\Users\ns028\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar C:\Users\ns028\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar C:\Users\ns028\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar C:\Users\ns028\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar C:\Users\ns028\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar C:\Users\ns028\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar C:\Users\ns028\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar C:\Users\ns028\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar C:\Users\ns028\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar C:\Users\ns028\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\ns028\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar C:\Users\ns028\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\ns028\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\ns028\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\ns028\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\ns028\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\ns028\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar C:\Users\ns028\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar C:\Users\ns028\.m2\repository\org\testng\testng\6.10\testng-6.10.jar C:\Users\ns028\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar C:\Users\ns028\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar C:\Users\ns028\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar C:\Users\ns028\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar C:\Users\ns028\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar C:\Users\ns028\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar C:\Users\ns028\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar C:\Users\ns028\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar C:\Users\ns028\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar C:\Users\ns028\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar C:\Users\ns028\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar C:\Users\ns028\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\ns028\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar C:\Users\ns028\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar C:\Users\ns028\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar C:\Users\ns028\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar C:\Users\ns028\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar C:\Users\ns028\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar C:\Users\ns028\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\ns028\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar C:\Users\ns028\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar C:\Users\ns028\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar C:\Users\ns028\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49448 -protocol json -d C:\Users\ns028\Desktop\Vignesh\Kreato\Automation Workspace\Kreato_CRM_V1\test-output C:\Users\ns028\Desktop\Vignesh\Kreato\Automation Workspace\Kreato_CRM_V1\TestNG.xml
+java -ea -classpath C:\Users\ns028\Desktop\Vignesh\Eclipse New\eclipse\configuration\org.eclipse.osgi\388\0\.cp\lib\testng-remote.jar:C:\Users\ns028\Desktop\Vignesh\Kreato\Automation Workspace\Kreato_CRM_V1\target\test-classes:C:\Users\ns028\Desktop\Vignesh\Kreato\Automation Workspace\Kreato_CRM_V1\target\classes:C:\Users\ns028\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar:C:\Users\ns028\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar:C:\Users\ns028\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar:C:\Users\ns028\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar:C:\Users\ns028\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar:C:\Users\ns028\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar:C:\Users\ns028\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar:C:\Users\ns028\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar:C:\Users\ns028\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar:C:\Users\ns028\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar:C:\Users\ns028\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar:C:\Users\ns028\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\ns028\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar:C:\Users\ns028\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\ns028\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\ns028\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\ns028\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\ns028\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\ns028\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar:C:\Users\ns028\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar:C:\Users\ns028\.m2\repository\org\testng\testng\6.10\testng-6.10.jar:C:\Users\ns028\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar:C:\Users\ns028\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar:C:\Users\ns028\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar:C:\Users\ns028\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar:C:\Users\ns028\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar:C:\Users\ns028\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar:C:\Users\ns028\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar:C:\Users\ns028\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar:C:\Users\ns028\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar:C:\Users\ns028\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar:C:\Users\ns028\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar:C:\Users\ns028\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\ns028\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar:C:\Users\ns028\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar:C:\Users\ns028\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar:C:\Users\ns028\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar:C:\Users\ns028\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar:C:\Users\ns028\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar:C:\Users\ns028\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\ns028\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar:C:\Users\ns028\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar:C:\Users\ns028\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar:C:\Users\ns028\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar org.testng.remote.RemoteTestNG -serport 49448 -protocol json -d C:\Users\ns028\Desktop\Vignesh\Kreato\Automation Workspace\Kreato_CRM_V1\test-output C:\Users\ns028\Desktop\Vignesh\Kreato\Automation Workspace\Kreato_CRM_V1\TestNG.xml
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-09-06 17:04:26.057
+!MESSAGE Connection to http://download.eclipse.org/technology/m2e/releases/1.12/1.12.0.20190529-1916/p2.index failed on Connection refused: connect. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:84)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2019-09-06 17:07:19.231
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2019-09-06 17:07:19.231
+!MESSAGE session context was:(profile=epp.package.testing, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-09-06 17:07:19.231
+!MESSAGE No repository found containing: osgi.bundle,javax.servlet,3.1.0.v20140303-1611

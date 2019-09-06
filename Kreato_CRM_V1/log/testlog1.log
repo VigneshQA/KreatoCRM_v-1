@@ -1,0 +1,139 @@
+2019-07-19 16:05:16,223 [main] INFO KreatoCRM - URL Called
+2019-07-19 16:05:16,664 [main] INFO KreatoCRM - Entered Username
+2019-07-19 16:05:16,752 [main] INFO KreatoCRM - Entered Password
+2019-07-19 16:05:18,164 [main] INFO KreatoCRM - Clicked Login button
+2019-07-19 16:05:46,780 [main] INFO KreatoCRM - URL Called
+2019-07-19 16:05:47,061 [main] INFO KreatoCRM - Entered Username
+2019-07-19 16:05:47,150 [main] INFO KreatoCRM - Entered Password
+2019-07-19 16:05:52,724 [main] INFO KreatoCRM - Clicked Login button
+2019-07-19 17:17:04,320 [main] INFO KreatoCRM - URL Called
+2019-07-19 17:17:05,690 [main] INFO KreatoCRM - Entered Username
+2019-07-19 17:17:06,047 [main] INFO KreatoCRM - Entered Password
+2019-07-19 17:17:06,867 [main] INFO KreatoCRM - Clicked Login button
+2019-07-19 17:20:24,025 [main] INFO KreatoCRM - URL Called
+2019-07-19 17:20:24,714 [main] INFO KreatoCRM - Entered Username
+2019-07-19 17:20:25,123 [main] INFO KreatoCRM - Entered Password
+2019-07-19 17:20:26,122 [main] INFO KreatoCRM - Clicked Login button
+2019-07-19 17:47:43,538 [main] INFO KreatoCRM - URL Called
+2019-07-19 17:47:44,068 [main] INFO KreatoCRM - Entered Username
+2019-07-19 17:47:44,362 [main] INFO KreatoCRM - Entered Password
+2019-07-19 17:47:45,102 [main] INFO KreatoCRM - Clicked Login button
+2019-07-19 18:14:52,607 [main] INFO KreatoCRM - URL Called
+2019-07-19 18:14:53,117 [main] INFO KreatoCRM - Entered Username
+2019-07-19 18:14:53,482 [main] INFO KreatoCRM - Entered Password
+2019-07-19 18:14:59,742 [main] INFO KreatoCRM - Clicked Login button
+2019-07-19 18:14:59,767 [main] INFO KreatoCRM - TC_Login_001 Passed
+2019-07-19 18:15:28,931 [main] INFO KreatoCRM - URL Called
+2019-07-19 18:15:29,450 [main] INFO KreatoCRM - Entered Username
+2019-07-19 18:15:29,757 [main] INFO KreatoCRM - Entered Password
+2019-07-19 18:15:30,486 [main] INFO KreatoCRM - Clicked Login button
+2019-07-22 12:24:41,238 [main] INFO KreatoCRM - URL Called
+2019-07-22 12:24:43,525 [main] INFO KreatoCRM - Entered Username
+2019-07-22 12:24:43,918 [main] INFO KreatoCRM - Entered Password
+2019-07-22 12:24:45,807 [main] INFO KreatoCRM - Clicked Login button
+2019-08-12 12:15:46,337 [main] INFO KreatoCRM - user name provided
+2019-08-12 12:15:48,103 [main] INFO KreatoCRM - password provided
+2019-08-12 12:15:52,973 [main] INFO KreatoCRM - user name provided
+2019-08-12 12:15:53,488 [main] INFO KreatoCRM - password provided
+2019-08-12 12:15:58,438 [main] INFO KreatoCRM - user name provided
+2019-08-12 12:15:58,886 [main] INFO KreatoCRM - password provided
+2019-08-12 12:16:03,705 [main] INFO KreatoCRM - user name provided
+2019-08-12 12:16:04,079 [main] INFO KreatoCRM - password provided
+2019-08-12 12:22:47,462 [main] INFO KreatoCRM - user name provided
+2019-08-12 12:22:47,781 [main] INFO KreatoCRM - password provided
+2019-08-12 12:22:52,558 [main] INFO KreatoCRM - user name provided
+2019-08-12 12:22:52,878 [main] INFO KreatoCRM - password provided
+2019-08-12 12:22:58,124 [main] INFO KreatoCRM - user name provided
+2019-08-12 12:22:58,459 [main] INFO KreatoCRM - password provided
+2019-08-12 12:22:59,451 [main] INFO KreatoCRM - user name provided
+2019-08-12 12:22:59,867 [main] INFO KreatoCRM - password provided
+2019-08-12 12:27:04,670 [main] INFO KreatoCRM - user name provided
+2019-08-12 12:27:05,046 [main] INFO KreatoCRM - password provided
+2019-08-12 12:27:09,957 [main] INFO KreatoCRM - user name provided
+2019-08-12 12:27:10,468 [main] INFO KreatoCRM - password provided
+2019-08-12 13:04:53,271 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:04:53,639 [main] INFO KreatoCRM - password provided
+2019-08-12 13:04:58,747 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:04:59,115 [main] INFO KreatoCRM - password provided
+2019-08-12 13:06:26,560 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:06:26,894 [main] INFO KreatoCRM - password provided
+2019-08-12 13:06:31,605 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:06:31,915 [main] INFO KreatoCRM - password provided
+2019-08-12 13:08:55,224 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:08:55,607 [main] INFO KreatoCRM - password provided
+2019-08-12 13:09:00,405 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:09:00,933 [main] INFO KreatoCRM - password provided
+2019-08-12 13:10:04,861 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:10:05,335 [main] INFO KreatoCRM - password provided
+2019-08-12 13:10:10,245 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:10:10,634 [main] INFO KreatoCRM - password provided
+2019-08-12 13:12:30,300 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:12:30,786 [main] INFO KreatoCRM - password provided
+2019-08-12 13:12:35,582 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:12:35,965 [main] INFO KreatoCRM - password provided
+2019-08-12 13:12:55,075 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:12:55,510 [main] INFO KreatoCRM - password provided
+2019-08-12 13:13:00,387 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:13:00,921 [main] INFO KreatoCRM - password provided
+2019-08-12 13:14:50,386 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:14:50,961 [main] INFO KreatoCRM - password provided
+2019-08-12 13:14:55,878 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:14:56,583 [main] INFO KreatoCRM - password provided
+2019-08-12 13:15:22,999 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:15:23,625 [main] INFO KreatoCRM - password provided
+2019-08-12 13:15:28,361 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:15:29,057 [main] INFO KreatoCRM - password provided
+2019-08-12 13:15:49,114 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:15:49,704 [main] INFO KreatoCRM - password provided
+2019-08-12 13:15:54,719 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:15:55,414 [main] INFO KreatoCRM - password provided
+2019-08-12 13:22:51,675 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:22:52,340 [main] INFO KreatoCRM - password provided
+2019-08-12 13:25:43,826 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:25:44,285 [main] INFO KreatoCRM - password provided
+2019-08-12 13:25:58,852 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:25:59,296 [main] INFO KreatoCRM - password provided
+2019-08-12 13:26:03,919 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:26:04,417 [main] INFO KreatoCRM - password provided
+2019-08-12 13:26:08,808 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:26:09,265 [main] INFO KreatoCRM - password provided
+2019-08-12 13:30:30,603 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:30:30,714 [main] INFO KreatoCRM - password provided
+2019-08-12 13:30:57,899 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:30:58,001 [main] INFO KreatoCRM - password provided
+2019-08-12 13:31:05,772 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:31:05,877 [main] INFO KreatoCRM - password provided
+2019-08-12 13:31:31,574 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:31:31,663 [main] INFO KreatoCRM - password provided
+2019-08-12 13:31:57,359 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:31:57,450 [main] INFO KreatoCRM - password provided
+2019-08-12 13:32:09,941 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:32:10,022 [main] INFO KreatoCRM - password provided
+2019-08-12 13:32:18,704 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:32:18,787 [main] INFO KreatoCRM - password provided
+2019-08-12 13:32:20,191 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:32:20,258 [main] INFO KreatoCRM - password provided
+2019-08-12 13:33:17,998 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:33:18,088 [main] INFO KreatoCRM - password provided
+2019-08-12 13:33:43,908 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:33:43,999 [main] INFO KreatoCRM - password provided
+2019-08-12 13:33:56,071 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:33:56,150 [main] INFO KreatoCRM - password provided
+2019-08-12 13:34:34,461 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:34:34,558 [main] INFO KreatoCRM - password provided
+2019-08-12 13:35:55,459 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:35:55,549 [main] INFO KreatoCRM - password provided
+2019-08-12 13:36:09,854 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:36:09,936 [main] INFO KreatoCRM - password provided
+2019-08-12 13:36:18,885 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:36:18,964 [main] INFO KreatoCRM - password provided
+2019-08-12 13:36:20,584 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:36:20,651 [main] INFO KreatoCRM - password provided
+2019-08-12 13:43:36,813 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:43:36,902 [main] INFO KreatoCRM - password provided
+2019-08-12 13:44:02,250 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:44:02,341 [main] INFO KreatoCRM - password provided
+2019-08-12 13:44:11,419 [main] INFO KreatoCRM - user name provided
+2019-08-12 13:44:11,501 [main] INFO KreatoCRM - password provided
+2019-09-06 17:00:28,043 [main] INFO KreatoCRM - user name provided
+2019-09-06 17:00:28,169 [main] INFO KreatoCRM - password provided
